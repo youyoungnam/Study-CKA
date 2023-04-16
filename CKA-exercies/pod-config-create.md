@@ -9,11 +9,11 @@ kubectl run nginx --image=nginx:1.21.1 -o yaml --dry-run=client > pod.yaml
 
 
 Config.yaml 작성
+```
 apiVersion: v1
 kind: ConfigMap
 metadata:
   name: logs-config
 data:
   dir: /etc/logs/traffic.log
-
-
+```
