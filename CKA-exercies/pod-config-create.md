@@ -17,3 +17,7 @@ metadata:
 data:
   dir: /etc/logs/traffic.log
 ```
+
+kubectl apply -f 폴더이름 -R
+
+kubectl apply -f manifests -R
